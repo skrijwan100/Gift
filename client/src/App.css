@@ -101,3 +101,15 @@ text-transform: capitalize;
    font-size: 18px;
    margin-top: 20px;
  }
+
+.pagebtn{
+   padding: 5px;
+   transition: all 0.3s ease-in-out;
+   border-radius: 10px;
+   &:hover{
+      background-color: rgb(99, 12, 230);
+   }
+}
+.page-active{
+   color: rgb(178, 165, 245);
+}
