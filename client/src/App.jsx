@@ -11,6 +11,7 @@ import { ToastContainer } from 'react-toastify'
 import { Flip } from 'react-toastify';
 import Giftandmemory from './components/Giftandmemory';
 import Vedio from './components/Vedio';
+import Loginsing from './components/Loginsing';
 function App() {
 
 
@@ -23,6 +24,7 @@ function App() {
       <Route path='/mainpage' element={<Mainpage/>}/>
       <Route path='/gift&memory' element={<Giftandmemory/>}/>
       <Route path='/vedio' element={<Vedio/>}/>
+      <Route path='/logsing' element={<Loginsing/>}/>
      </Routes>
      </BrowserRouter>
     </>
